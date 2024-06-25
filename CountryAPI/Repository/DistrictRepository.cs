@@ -30,7 +30,8 @@ namespace CountryAPI.Repository
 
         public async Task UpdateDisctrict(District district)
         {
-           _context.Update(district); 
+           _context.Entry(district).Property(x => x.DistrictName).IsModified = district.DistrictName != null;
+           _context.Entry(district).Property(x=>x.Population).IsModified = district.Population >0;
            await _context.SaveChangesAsync();
         }
 

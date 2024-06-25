@@ -39,12 +39,9 @@ namespace CountryAPI.Repository
 
         public async Task UpdateCommnune(Commune commune)
         {
-            if (!string.IsNullOrEmpty(commune.CommuneName) && commune.Population >0)
-            {
-                _context.Communes.Entry(commune).Property(p => p.CommuneName).IsModified = commune.CommuneName != null && commune.CommuneName != "string";
-                _context.Communes.Entry(commune).Property(p => p.Population).IsModified = commune.Population > 0;
-                await _context.SaveChangesAsync();
-            }
+           _context.Entry(commune).Property(x=> x.CommuneName).IsModified = commune.CommuneName != null;
+            _context.Entry(commune).Property(x=>x.Population).IsModified = commune.Population >0;
+           await _context.SaveChangesAsync();
         }
 
         public async Task UpdateCommunesList(List<Commune> communes)

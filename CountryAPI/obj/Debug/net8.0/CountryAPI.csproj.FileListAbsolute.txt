@@ -542,3 +542,4 @@ E:\Work\training\Country\CountryAPI\obj\Debug\net8.0\refint\CountryAPI.dll
 E:\Work\training\Country\CountryAPI\obj\Debug\net8.0\CountryAPI.pdb
 E:\Work\training\Country\CountryAPI\obj\Debug\net8.0\CountryAPI.genruntimeconfig.cache
 E:\Work\training\Country\CountryAPI\obj\Debug\net8.0\ref\CountryAPI.dll
+E:\Work\training\Country\CountryAPI\obj\Debug\net8.0\CountryAPI.sourcelink.json

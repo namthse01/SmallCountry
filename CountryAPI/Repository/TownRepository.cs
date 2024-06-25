@@ -41,8 +41,9 @@ namespace CountryAPI.Repository
 
         public async Task UpdateTown(Town town)
         {
-            _context.Update(town);
-           await _context.SaveChangesAsync();
+            _context.Entry(town).Property(x => x.TownName).IsModified = town.TownName != null;
+            _context.Entry(town).Property(x => x.Population).IsModified = town.Population > 0;
+            await _context.SaveChangesAsync();
         }
 
         public async Task UpdateListTown(List<Town> list)
