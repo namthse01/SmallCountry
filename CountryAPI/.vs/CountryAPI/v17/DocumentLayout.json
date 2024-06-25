@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Work\\training\\CountryAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75696B7A-77DD-4B5E-9D4A-9FF37520E3F1}|CountryAPI\\CountryAPI.csproj|e:\\work\\training\\countryapi\\countryapi\\countryapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{75696B7A-77DD-4B5E-9D4A-9FF37520E3F1}|CountryAPI\\CountryAPI.csproj|solutionrelative:countryapi\\countryapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 281,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CountryAPI.csproj",
+              "DocumentMoniker": "E:\\Work\\training\\CountryAPI\\CountryAPI\\CountryAPI.csproj",
+              "RelativeDocumentMoniker": "CountryAPI\\CountryAPI.csproj",
+              "ToolTip": "E:\\Work\\training\\CountryAPI\\CountryAPI\\CountryAPI.csproj",
+              "RelativeToolTip": "CountryAPI\\CountryAPI.csproj",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-24T02:54:24.145Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
